@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-13T17:37:50.733Z",
+        "line": 4,
+        "name": "User should be able to set on the SkyBlue background color",
+        "description": "",
+        "id": "techfios-todo-list-validation;user-should-be-able-to-set-on-the-skyblue-background-color",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4234000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the todo list page",
+            "match": {
+              "location": "steps.StepDefinition.User_is_on_the_todo_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Set SkyBlue Background color",
+            "match": {
+              "location": "steps.StepDefinition.User_click_on_Set_SkyBlue_Background_color()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User change to the SkyBlue Background color",
+            "match": {
+              "location": "steps.StepDefinition.user_change_to_the_SkyBlue_Background_color()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-13T17:37:55.437Z",
+        "line": 11,
+        "name": "User should be able to set on the White background color",
+        "description": "",
+        "id": "techfios-todo-list-validation;user-should-be-able-to-set-on-the-white-background-color",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3300000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on the todo list page",
+            "match": {
+              "location": "steps.StepDefinition.User_is_on_the_todo_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on Set SkyWhite Background color",
+            "match": {
+              "location": "steps.StepDefinition.user_click_on_Set_SkyWhite_Background_color()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User change to the SkyWhite Background color",
+            "match": {
+              "location": "steps.StepDefinition.user_change_to_the_SkyWhite_Background_color()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios todo list validation",
+    "description": "",
+    "id": "techfios-todo-list-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TechFiosLogin.feature",
+    "tags": []
+  }
+]
